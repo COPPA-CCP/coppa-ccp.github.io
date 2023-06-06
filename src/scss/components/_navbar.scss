@@ -3,19 +3,12 @@
 // 
 
 .navbar-logo {
-    display: inherit;
-    color: $primary;
 
     img {
-        height: 50px;
+        height: calc(1.575rem + 0.3vw);
+        margin-top: -0.5rem;
+        margin-left: -0.4rem;
+        margin-right: -0.5rem;
     }
 
-}
-
-.navbar-icon {
-    color: $secondary;
-
-    i {
-        font-size: 32px;
-    }
 }
