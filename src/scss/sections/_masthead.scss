@@ -34,4 +34,26 @@ header.masthead {
         }
     }
 
+    .ble-logo {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+
+        img {
+            height: 60px
+        }
+    }
+
+    @media (min-width: 768px) {
+
+        .ble-logo {
+            bottom: 18px;
+            right: 18px;
+
+            img {
+                height: 80px
+            }
+        }
+    }
+
 }
