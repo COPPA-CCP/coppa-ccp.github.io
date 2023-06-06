@@ -16,6 +16,9 @@ html(lang='en')
         // Bootstrap icons
         link(href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css', rel='stylesheet', type='text/css')
 
+        // AOS
+        link(href='https://unpkg.com/aos@2.3.1/dist/aos.css', rel='stylesheet', type='text/css')
+
         // Google fonts
         link(href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic', rel='stylesheet', type='text/css')
 
@@ -45,11 +48,11 @@ html(lang='en')
                             h2.text-secondary.mb-5 Open Circular-Collaboration-Platform for Sustainable Food Packaging from Plastics
 
                     .col-6.col-xl-3.align-self-center
-                        img.w-100(src='assets/img/logo/lg.png', alt='COPPA')
+                        img.w-100(src='assets/img/logo/lg.png', alt='COPPA', data-aos='zoom-in', data-aos-duration='1000')
 
             .ble-logo
                 a(href='https://www.ble.de')
-                    img.shadow.rounded(src='assets/img/ble_logo.png')
+                    img.shadow.rounded(src='assets/img/ble_logo.png', data-aos='fade-left', data-aos-delay='1000')
 
 
         // Icons Grid
@@ -74,6 +77,10 @@ html(lang='en')
                                 i.bi-terminal.m-auto.text-primary
                             h3 Easy to Use
                             p.lead.mb-0 Ready to use with your own content, or customize the source files!
+                
+                .row
+                    .col-12
+                        h5 Entwicklung und Demonstration einer offenen und skalierbaren Circular Collaboration Plattform (CCP) für nachhaltige Lebensmittelverpackungen aus Kunststoff
 
         // Image Showcases
         section.showcase
@@ -102,10 +109,10 @@ html(lang='en')
                 h2.mb-5 Arbeitspakete
                 .row.py-5
                     .col-lg-5.text-start.my-3
-                        .package-header
+                        .package-header(data-aos='fade-right')
                             h3.text-primary AP1
                             h3.text-muted Design digitales Szenario
-                        .package-description
+                        .package-description(data-aos='fade-right', data-aos-delay='300')
                             p ...
 
                             a.btn.btn-outline-primary.mb-lg-0.mb-5.mt-3(href='#')
@@ -117,10 +124,10 @@ html(lang='en')
                 
                 .row.py-5
                     .col-lg-5.order-lg-2.text-start.my-3
-                        .package-header
+                        .package-header(data-aos='fade-left')
                             h3.text-primary AP2
                             h3.text-muted Transparenz und Vertrauenssystem
-                        .package-description
+                        .package-description(data-aos='fade-left', data-aos-delay='300')
                             p Der Anspruch eine dezentrale Platform zu entwickeln setzt in einem hohem Maß eine vertrauensschaffende Technologie voraus, da nicht persönliches Vertrauen zu allen Akteuren aufgebaut werden kann. Deshalb setzt die CCP auf den Austausch von ausschließlich signierte Daten und ein SSI basiertes Vertrauenssystem.
 
                             a.btn.btn-outline-primary.mb-lg-0.mb-5.mt-3(href='#')
@@ -235,6 +242,9 @@ html(lang='en')
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        // AOS
+        script(src='https://unpkg.com/aos@2.3.1/dist/aos.js')
 
         // Core theme JS
         script(src='js/scripts.js')
