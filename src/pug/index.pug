@@ -37,9 +37,12 @@ html(lang='en')
             .container.position-relative
                 .row.justify-content-center
                     .col-xl-6
-                        .text-center.text-white
+                        .text-end.text-white
                             // Page heading
                             h1.text-secondary.mb-5 Open Circular-Collaboration-Platform for Sustainable Food Packaging from Plastics
+
+                    .col-xl-6
+
 
 
         // Icons Grid
@@ -87,8 +90,42 @@ html(lang='en')
                         p.lead.mb-0
                             | Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!
 
+        section.working-package.text-center.bg-light
+            .container
+                h2.mb-5 Arbeitspakete
+                .row.py-5
+                    .col-lg-5.text-start.my-3
+                        .package-header
+                            h3.text-primary AP1
+                            h3.text-muted Design digitales Szenario
+                        .package-description
+                            p ...
+
+                            a.btn.btn-outline-primary.mb-lg-0.mb-5.mt-3(href='#')
+                                p.mb-0 Mehr erfahren
+
+                    .col-lg-7.text-lg-end.text-start
+                        .package-image
+                            img(src='assets/img/wp/1.jpg' alt='AP1')
+                
+                .row.py-5
+                    .col-lg-5.order-lg-2.text-start.my-3
+                        .package-header
+                            h3.text-primary AP2
+                            h3.text-muted Transparenz und Vertrauenssystem
+                        .package-description
+                            p Der Anspruch eine dezentrale Platform zu entwickeln setzt in einem hohem Maß eine vertrauensschaffende Technologie voraus, da nicht persönliches Vertrauen zu allen Akteuren aufgebaut werden kann. Deshalb setzt die CCP auf den Austausch von ausschließlich signierte Daten und ein SSI basiertes Vertrauenssystem.
+
+                            a.btn.btn-outline-primary.mb-lg-0.mb-5.mt-3(href='#')
+                                p.mb-0 Mehr erfahren
+                                    // i.bi.bi-info-lg
+
+                    .col-lg-7.order-lg-1.text-lg-start.text-end
+                        .package-image
+                            img(src='assets/img/wp/1.jpg' alt='AP2')
+        
         // Testimonials
-        section.testimonials.text-center.bg-light
+        section.testimonials.text-center
             .container
                 h2.mb-5 What people are saying...
                 .row

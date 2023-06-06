@@ -1,0 +1,29 @@
+// 
+// Working Package
+// 
+
+.working-package {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+    .package-header {}
+
+    .package-description {
+        --bs-text-opacity: 1;
+        color: #6c757d !important;
+    }
+
+    .package-image {
+
+        img {
+            width: 100%;
+            box-shadow: 0px 5px 5px 0px $gray-500;
+        }
+
+        @media (min-width: 992px) {
+            img {
+                max-width: 40rem;
+            }
+        }
+    }
+}
