@@ -5,7 +5,7 @@
 header.masthead {
     position: relative;
     background-color: $gray-800;
-    background: url('../assets/img/bg-masthead.jpg') no-repeat center center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)), url('../assets/img/bg-masthead.jpg') no-repeat center center;
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
@@ -22,7 +22,7 @@ header.masthead {
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 4rem;
     }
 
     @media (min-width: 768px) {
