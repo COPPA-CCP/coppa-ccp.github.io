@@ -5,10 +5,14 @@
 header.masthead {
     position: relative;
     background-color: $gray-800;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7)), url('../assets/img/bg-masthead.jpg') no-repeat center center;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(70, 70, 70, 0.8)), url('../assets/img/bg-masthead.jpg') no-repeat center center;
     background-size: cover;
     padding-top: 8rem;
     padding-bottom: 8rem;
+
+    @media (max-width: 1200px) {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.85), rgba(70, 70, 70, 0.8)), url('../assets/img/bg-masthead.jpg') no-repeat center center;
+    }
 
     &:before {
         content: '';

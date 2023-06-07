@@ -14,3 +14,14 @@
         overflow-x: hidden;
     }
 }
+
+[data-aos="spin-in"] {
+    transform: rotate(360deg) scale(.2);
+    opacity: 0;
+    transition-property: transform, opacity;
+
+    &.aos-animate {
+        transform: rotate(0) scale(1);
+        opacity: 1;
+    }
+}
