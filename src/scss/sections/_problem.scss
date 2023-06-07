@@ -1,19 +1,21 @@
 // 
-// Showcase
+// Problem
 // 
 
-.showcase {
-    .showcase-text {
+.problem {
+    padding-top: 7rem;
+
+    .problem-text {
         padding: 3rem;
     }
 
-    .showcase-img {
+    .problem-img {
         min-height: 30rem;
         background-size: cover;
     }
 
     @media (min-width: 768px) {
-        .showcase-text {
+        .problem-text {
             padding: 7rem;
         }
     }
