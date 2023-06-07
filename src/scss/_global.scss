@@ -3,3 +3,14 @@
 // 
 
 // Use this file to add styling to your theme
+
+// hide AOS overflow on mobile
+@media (max-width: 768px) {
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+}
