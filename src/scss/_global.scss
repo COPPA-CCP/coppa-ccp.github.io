@@ -16,7 +16,7 @@
 }
 
 [data-aos="spin-in"] {
-    transform: rotate(360deg) scale(.2);
+    transform: rotate(-360deg) scale(.2);
     opacity: 0;
     transition-property: transform, opacity;
 
