@@ -1,0 +1,21 @@
+// 
+// News
+// 
+
+.news.masthead {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(70, 70, 70, 0.8)), url('../assets/img/wp/7.WebP') no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+.news {
+
+    a {
+        text-decoration: none;
+    }
+
+    small img {
+        height: 1.5rem;
+    }
+}

@@ -11,6 +11,7 @@ function _processFile(filePath) {
     if (
         filePath.match(/\.pug$/)
         && !filePath.match(/include/)
+        && !filePath.match(/components/)
         && !filePath.match(/mixin/)
         && !filePath.match(/\/pug\/layouts\//)
     ) {

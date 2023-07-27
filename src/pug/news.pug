@@ -53,22 +53,68 @@ html(lang='de')
                     
 
         // Masthead
-        header.masthead.pb-5
+        header.news.masthead
             .container.position-relative
                 .row.justify-content-evenly
                     .col-xl-6.align-self-center
                         .text-center.text-xl-end.text-white
                             // Page heading
                             h1 COPPA News
+                            h2.text-secondary.mb-5 Die aktuellen Entwicklungen im Projekt
 
                     .col-6.col-xl-3.align-self-center.rotating.text-center
                         img.w-75(src='assets/img/logo/lg.png', alt='COPPA', data-aos='spin-in', data-aos-duration='2000')
 
 
-        section.news.bg-light.text-center
+        section.news
             .container.py-5
-                h2 Newslist
-                
+
+                .row.g-5
+                    // Header article
+                    .col-lg-6.px-md-5
+                        img.w-100(src='assets/img/news/article-1.WebP', alt='Article header')
+                    .col-lg-6.px-md-5
+                        h3.text-primary.my-3 Latest post
+                        p Short intro starting here ...
+                        .row.justify-content-between
+                            .col-sm-6
+                                a.text-primary.mt-3(href='https://github.com/COPPA-CCP/') Weiterlesen
+                                    i.bi.bi-arrow-right-short
+                            .col-sm-6.text-end
+                                small.text-muted 
+                                    | 20. August 2023 - Sophia Botsch
+                                    img.mx-1.mb-1(src='assets/img/logo/xs.png', alt='COPPA')
+                    
+                    .col-12.text-center
+                        div.mx-auto.w-75.border-bottom.border-2.border-secondary.border-opacity-50.my-5
+
+                    // Sub articles
+                    .col-lg-6.px-md-5
+                        img.w-100(src='assets/img/news/article-1.WebP', alt='Article header')
+                        h3.text-primary.my-3 Title
+                        p Short intro starting here ...
+                        .row.justify-content-between
+                            .col-sm-6
+                                a.text-primary.mt-3(href='https://github.com/COPPA-CCP/') Weiterlesen
+                                    i.bi.bi-arrow-right-short
+                            .col-sm-6.text-end
+                                small.text-muted 
+                                    | 20. August 2023 - Sophia Botsch
+                                    img.mx-1.mb-1(src='assets/img/logo/xs.png', alt='COPPA')
+
+                    .col-lg-6.px-md-5
+                        img.w-100(src='assets/img/news/article-1.WebP', alt='Article header')
+                        h3.text-primary.my-3 Title
+                        p Short intro starting here ...
+                        .row.justify-content-between
+                            .col-sm-6
+                                a.text-primary.mt-3(href='https://github.com/COPPA-CCP/') Weiterlesen
+                                    i.bi.bi-arrow-right-short
+                            .col-sm-6.text-end
+                                small.text-muted 
+                                    | 20. August 2023 - Sophia Botsch
+                                    img.mx-1.mb-1(src='assets/img/logo/xs.png', alt='COPPA')
+
 
 
 
