@@ -18,4 +18,14 @@
     small img {
         height: 1.5rem;
     }
+
+    .header-logo {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+
+        img {
+            height: 60px
+        }
+    }
 }

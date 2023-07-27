@@ -1,0 +1,27 @@
+// 
+// Article
+// 
+
+.article.masthead {
+    background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 10rem;
+}
+
+.article {
+
+    a {
+        text-decoration: none;
+    }
+
+
+    .header-logo {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+
+        img {
+            height: 60px
+        }
+    }
+}
