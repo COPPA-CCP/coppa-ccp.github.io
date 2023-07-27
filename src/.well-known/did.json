@@ -1,0 +1,43 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/ed25519-2020/v1",
+        "https://w3id.org/security/suites/x25519-2020/v1"
+    ],
+    "id": "did:web:coppa-ccp.github.io",
+    "assertionMethod": [
+        "did:web:coppa-ccp.github.io#z6MkrW5dtCvyHSXexw3zATu37fiYphgKYxugy7drDuDRqH1n"
+    ],
+    "authentication": [
+        "did:web:coppa-ccp.github.io#z6MkrW5dtCvyHSXexw3zATu37fiYphgKYxugy7drDuDRqH1n"
+    ],
+    "capabilityDelegation": [
+        "did:web:coppa-ccp.github.io#z6MkrW5dtCvyHSXexw3zATu37fiYphgKYxugy7drDuDRqH1n"
+    ],
+    "capabilityInvocation": [
+        "did:web:coppa-ccp.github.io#z6MkrW5dtCvyHSXexw3zATu37fiYphgKYxugy7drDuDRqH1n"
+    ],
+    "keyAgreement": [
+        {
+            "id": "did:web:coppa-ccp.github.io#z6LSmunDrwx7D85T7W6fUHrYP5usQwo5Q9hqYNjeEHvpA6GT",
+            "type": "X25519KeyAgreementKey2020",
+            "controller": "did:web:coppa-ccp.github.io",
+            "publicKeyMultibase": "z6LSmunDrwx7D85T7W6fUHrYP5usQwo5Q9hqYNjeEHvpA6GT"
+        }
+    ],
+    "verificationMethod": [
+        {
+            "id": "did:web:coppa-ccp.github.io#z6MkrW5dtCvyHSXexw3zATu37fiYphgKYxugy7drDuDRqH1n",
+            "type": "Ed25519VerificationKey2020",
+            "controller": "did:web:coppa-ccp.github.io",
+            "publicKeyMultibase": "z6MkrW5dtCvyHSXexw3zATu37fiYphgKYxugy7drDuDRqH1n"
+        }
+    ],
+    "service": [
+        {
+            "id": "did:web:coppa-ccp.github.io#eecc-registry",
+            "type": "CredentialRegistry",
+            "serviceEndpoint": "https://ssi.eecc.de/api/registry/vcs/"
+        }
+    ]
+}
