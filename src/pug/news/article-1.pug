@@ -69,8 +69,44 @@ html(lang='de')
 
 
         section.article
-            .container.py-5
-                h5 Text
+            .container.py-5.px-lg-5
+
+                // TLDR intro
+                p.fw-bold Short intro text TLDR
+                
+                // Author line
+                p.author.text-muted.text-md-end.mt-3.mb-5 20. August 2023 - Sophia Botsch
+
+                // Regular text
+                p.my-3 Long text article and stuff
+
+                // full width image
+                .row.justify-content-center.g-5.py-5
+                    .col-lg-12
+                        img.w-100(src='/assets/img/news/article-1.WebP')
+
+                // half width image
+                .row.justify-content-center.g-5.py-5
+                    .col-lg-6
+                        img.w-100(src='/assets/img/news/article-1.WebP')
+
+
+                // Text with link
+                p.my-3
+                    | More text text text text with
+                    a(href="https://id.eecc.de") link
+                    | in the middle of text and now multi images 
+
+                // Multi image
+                .row.justify-content-center.g-5.py-5
+                    .col-lg-6
+                        img.w-100(src='/assets/img/news/article-1.WebP')
+                    .col-lg-6
+                        img.w-100(src='/assets/img/news/article-1.WebP')
+                
+                // Text
+                p.my-3
+                    | Get more text on the road
                 
 
 
