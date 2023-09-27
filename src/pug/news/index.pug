@@ -16,7 +16,7 @@ html(lang='de')
         link(rel='preload' href='/assets/img/logo/xs.png' as='image')
 
         // Bootstrap icons
-        link(href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css', rel='stylesheet', type='text/css')
+        link(href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css', rel='stylesheet', type='text/css')
 
         // AOS
         link(href='https://unpkg.com/aos@2.3.1/dist/aos.css', rel='stylesheet', type='text/css')
@@ -99,8 +99,23 @@ html(lang='de')
                         div.mx-auto.w-75.border-bottom.border-2.border-secondary.border-opacity-50.my-5
                     // --------------------------------------------------------------------------------
 
+                    // GS1 Standards
+                    .col-lg-6.px-md-5.d-flex.flex-column
+                        .teaser-image.w-100(style="background-image: url('/assets/img/news/gs1.png');")
+                        h3.text-primary.my-3 Datengesteuerter Kreislauf von Verpackungsmaterialen
+                        p While plastic packaging offers many benefits, such as protection and increased durability of products, it also leads to major environmental problems and plastic pollution. In European Union member states only 32.5 percent of the plastic produced is recycled, whereas 67.5 percent ends up in incineration or landfill1. To promote high-quality recycling of plastic packaging, efforts by all stakeholders involved are needed – with the aim of generating new plastic packaging out of used packaging materials.
+                        .row.justify-content-between.mt-auto
+                            .col-sm-4.my-2
+                                a.text-primary(href='https://www.gs1-germany.de/fileadmin/gs1/fachpublikationen/gs1-germany-circular-plastics-traceability-implementation-guideline-v-1.0.pdf') Weiterlesen
+                                    i.bi.bi-arrow-right-short
+                                    i.bi.bi-filetype-pdf
+                            .col-sm-8.text-end.my-2
+                                small.text-muted 
+                                    | 29. August 2023 - Michaela Freynhagen
+                                    img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
+
                     // EECC Whitepaper article
-                    .col-lg-6.px-md-5
+                    .col-lg-6.px-md-5.d-flex.flex-column
                         .teaser-image.w-100(style="background-image: url('https://media.licdn.com/dms/image/D4E12AQFLCXFToYmnUg/article-cover_image-shrink_600_2000/0/1682416611800?e=2147483647&v=beta&t=mGx8Gp1VeOs7Mgks_WEfmsZdx1T_yLGmVkJjzn15Few');")
                         h3.text-primary.my-3 Datenströme der Zukunft - Der Wert von signierten Daten
                         p In der heutigen Welt dürfte jedem der Wert und die Wichtigkeit von Daten bewusst sein. Daten sind omnipräsent und bilden die Basis unserer modernen Wirtschaft. Die Überprüfung von Qualität, Authentizität und Ursprung der Daten kommt besonders bei komplexen Supply Chains oder einer Kreislaufwirtschaft zum Tragen.
@@ -141,19 +156,6 @@ html(lang='de')
                                     | 23. November 2022 - BMEL Pressemitteilung
                                     img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
 
-                    // GS1 Standards
-                    .col-lg-6.px-md-5
-                        .teaser-image.w-100(style="background-image: url('https://media.licdn.com/dms/image/D4E12AQFLCXFToYmnUg/article-cover_image-shrink_600_2000/0/1682416611800?e=2147483647&v=beta&t=mGx8Gp1VeOs7Mgks_WEfmsZdx1T_yLGmVkJjzn15Few');")
-                        h3.text-primary.my-3 Datengesteuerter Kreislauf von Verpackungsmaterialen
-                        p ...
-                        .row.justify-content-between.mt-auto
-                            .col-sm-4.my-2
-                                a.text-primary(href='https://www.gs1-germany.de/service/gs1-newsroom/meldung/datengesteuerter-kreislauf-von-verpackungsmaterialen/') Weiterlesen
-                                    i.bi.bi-arrow-right-short
-                            .col-sm-8.text-end.my-2
-                                small.text-muted 
-                                    | 29. August 2023 - Michaela Freynhagen
-                                    img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
 
         include ../components/footer.pug
 
