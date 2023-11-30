@@ -13,7 +13,7 @@ html(lang='de')
         meta(name='author', content='Jasmin Plato')
 
         // hier den Browser title eintragen
-        title COPPA Artikel - Artikel 1
+        title Projekttreffen bei Reifenhäuser
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='/assets/favicon.ico')
@@ -58,14 +58,14 @@ html(lang='de')
                     
 
         // Masthead
-        header.article.masthead(style="background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(70, 70, 70, 0.8)), url('/assets/img/news/article-1.WebP') no-repeat center center; background-size: cover;")
+        header.article.masthead(style="background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(70, 70, 70, 0.8)), url('/assets/img/news/projekttreffen.png') no-repeat center center; background-size: cover;")
             .container.position-relative
                 .row.justify-content-center
                     .col-xl-8.align-self-center
                         .text-white.text-md-start.text-center
                             // Title
                             h1 Besuch Reifenhäuser
-                            h2.text-secondary.mb-5 Short intro. Can be deleted
+                            h2.text-secondary.mb-5
 
             .header-logo
                 .text-white(data-aos='fade-left', data-aos-delay='2000')
@@ -88,7 +88,7 @@ html(lang='de')
                 // full width image
                 .row.justify-content-center.g-5.py-5
                     .col-lg-12
-                        img.w-100(src='/assets/img/news/article-1.WebP')
+                        img.w-100(src='/assets/img/news/projekttreffen.png')
 
                 p.my-3 More long text article and stuff
 
@@ -99,19 +99,11 @@ html(lang='de')
                     a(href="https://id.eecc.de") link
                     | in the middle of text and now multi images 
 
-                // Multi image
-                .row.justify-content-center.g-5.py-5
-                    .col-lg-6
-                        img.w-100(src='/assets/img/news/article-1.WebP')
-                    .col-lg-6
-                        img.w-100(src='/assets/img/news/article-1.WebP')
                 
                 // Text
                 p.my-3
                     | Get more text on the road
                 
-
-
 
         include ../components/footer.pug
 
