@@ -59,8 +59,8 @@ html(lang='de')
                     .col-xl-6.align-self-center
                         .text-center.text-xl-end.text-white
                             // Page heading
-                            h1 COPPA News
-                            h2.text-secondary.mb-5 Die aktuellen Entwicklungen im Projekt
+                            h1 AP 5
+                            h2.text-secondary.mb-5 Entwicklung eines Anwendungsökosystems für die CCP
 
                     .col-6.col-xl-3.align-self-center.rotating.text-center
                         img.w-75(src='/assets/img/logo/lg.png', alt='COPPA', data-aos='spin-in', data-aos-duration='2000')
@@ -75,16 +75,17 @@ html(lang='de')
                     .col-lg-6.px-md-5
                         img.w-100.pt-3(src='/assets/img/news/projekttreffen.png', alt='Projekttreffen Reifenäuser')
                     .col-lg-6.px-md-5
-                        h3.text-primary.my-3 Projekttreffen
-                        p Drittes Projekttreffen des COPPA-Konsortiums.
+                        h3.text-primary.my-3 Aktueller Stand
+                        p Die Kunststoff- und Verpackungswirtschaft bilden als Wertschöpfungssystem ein eigenes wirtschaftliches Ökosystem, das zu keiner Zeit als geschlossen angesehen werden darf. Die Umstellung von einer vorwiegend linearen Wirtschaftsweise auf eine digital ermöglichte Kreislaufwirtschaft kann zu veränderten Wertschöpfungsströmen im Markt und Anforderungen an Marktteilnehmer führen. COPPA entwickelt und erprobt daher ein Business Ecosystem zur Realisierung und Förderung der CCP mit bestehenden und neuen Akteuren.
+Eine Analyse der Kunststoff-Lebensmittelverpackungsindustrie durch Business Ecosystem Mapping bildet die Basis. Hierzu werden die Wirk- und Austauschbeziehungen des aktuellen Wertschöpfungssystem erarbeitet, einzelne Rollen sowie beispielhafte Akteure identifiziert und beschrieben. Darauf aufbauend wird das zukünftige Anwendungsökosystem mit Methoden des Ecosystem Designs gestaltet. Hierzu gehört die Definition zukünftiger Rollen im Ökosystem sowie deren Wirk- und Austauschbeziehungen entlang unterschiedlicher Kreislaufstrategien der Circular Economy. Aus der strukturierten Identifikation verschiedener „Netzwerkeffekt-Strategien“ werden Maßnahmen und Handlungsempfehlungen zur Erschließung potenzieller Netzwerkeffekte durch die CCP abgeleitet. Eine abschließend durchgeführte rollenspezifische Einflussanalyse der Umfeldveränderungen auf unternehmerische Gestaltungsfelder mit Hilfe des Business Transformation Canvas zeigt Transformationsbedarfe auf. Hieraus werden Transformationslinien für zentrale Rollen abgeleitet und in Handlungsempfehlungen in Form von Stufenplänen für Unternehmen zum Eintritt in das neue Anwendungsökosystem übertragen.
+
 
                         .row.justify-content-between.mt-5
                             .col-sm-6.my-2
-                                a.text-primary(href='projekttreffen.html') Weiterlesen
-                                    i.bi.bi-arrow-right-short
+                                
                             .col-sm-6.text-end.my-2
                                 small.text-muted 
-                                    | 13. November 2023 - Jasmin Plato
+                                    | 15. April 2024 - Daniel Spindler
                                     img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
                     
 
@@ -95,77 +96,6 @@ html(lang='de')
                     // --------------------------------------------------------------------------------
 
 
-                    // GS1 Standards
-                    .col-lg-6.px-md-5.d-flex.flex-column
-                        .teaser-image.w-100(style="background-image: url('/assets/img/news/gs1.png');")
-                        h3.text-primary.my-3 Datengesteuerter Kreislauf von Verpackungsmaterialen
-                        p While plastic packaging offers many benefits, such as protection and increased durability of products, it also leads to major environmental problems and plastic pollution. In European Union member states only 32.5 percent of the plastic produced is recycled, whereas 67.5 percent ends up in incineration or landfill1. To promote high-quality recycling of plastic packaging, efforts by all stakeholders involved are needed – with the aim of generating new plastic packaging out of used packaging materials.
-                        .row.justify-content-between.mt-auto
-                            .col-sm-4.my-2
-                                a.text-primary(href='https://www.gs1-germany.de/fileadmin/gs1/fachpublikationen/gs1-germany-circular-plastics-traceability-implementation-guideline-v-1.0.pdf') Weiterlesen
-                                    i.bi.bi-arrow-right-short
-                                    i.bi.bi-filetype-pdf
-                            .col-sm-8.text-end.my-2
-                                small.text-muted 
-                                    | 29. August 2023 - Michaela Freynhagen
-                                    img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
-
-                    // SKZ Podcast
-                    .col-lg-6.px-md-5.d-flex.flex-column
-                        iframe(width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1517507824&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true")
-                        h3.text-primary.my-3 COPPA beim SKZ - Podcast "Kunststoff Nachgefragt"
-                        p In dieser Folge verbinden sich zwei der absoluten Trendthemen in der Kunststoffindustrie. Digitalisierung und Nachhaltigkeit. Zu Gast bei "Kunststoff Nachgefragt", dem SKZ Podcast, sind Roman Winter von der GS1-Germany GmbH und Georg Schwering von der European EPC Competence Center GmbH (EECC). Sie sprechen über das Projekt COPPA, den digitalen Produktpass für Lebensmittelverpackungen und welche Möglichkeiten dies für Rezyklatanwendungen und die Ermittlung des Carbon Footprint schafft.
-                        
-                        .row.justify-content-between.mt-auto
-                            .col-sm-4.my-2
-                                a.text-primary(href='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1517507824&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true') Anhören
-                                    i.bi.bi-arrow-right-short
-                            .col-sm-8.text-end.my-2
-                                small.text-muted 
-                                    | 03. August 2023 - Sophia Botsch
-                                    img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
-
-                    // EECC Whitepaper article
-                    .col-lg-6.px-md-5.d-flex.flex-column
-                        .teaser-image.w-100(style="background-image: url('https://media.licdn.com/dms/image/D4E12AQFLCXFToYmnUg/article-cover_image-shrink_600_2000/0/1682416611800?e=2147483647&v=beta&t=mGx8Gp1VeOs7Mgks_WEfmsZdx1T_yLGmVkJjzn15Few');")
-                        h3.text-primary.my-3 Datenströme der Zukunft - Der Wert von signierten Daten
-                        p In der heutigen Welt dürfte jedem der Wert und die Wichtigkeit von Daten bewusst sein. Daten sind omnipräsent und bilden die Basis unserer modernen Wirtschaft. Die Überprüfung von Qualität, Authentizität und Ursprung der Daten kommt besonders bei komplexen Supply Chains oder einer Kreislaufwirtschaft zum Tragen.
-                        .row.justify-content-between.mt-auto
-                            .col-sm-4.my-2
-                                a.text-primary(href='https://www.linkedin.com/pulse/datenstr%25C3%25B6me-der-zukunft-wert-von-signierten-daten-eecc-gmbh/') Weiterlesen
-                                    i.bi.bi-arrow-right-short
-                            .col-sm-8.text-end.my-2
-                                small.text-muted 
-                                    | 25. April 2023 - Christian Fries
-                                    img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
-
-                    // KMAG Interview article
-                    .col-lg-6.px-md-5.d-flex.flex-column
-                        .teaser-image.w-100(style="background-image: url('/assets/img/news/Interview.jpg');")
-                        h3.text-primary.my-3 Circular Collaboration Plattform: für mehr Rezyklate in Lebensmittelverpackungen
-                        p Interview von K-MAG mit Dr. Hermann Achenbach, Gruppenleiter Nachhaltigkeit und Kreislaufwirtschaft, Das Kunststoff-Zentrum SKZ
-                        .row.justify-content-between.mt-auto
-                            .col-sm-4.my-2
-                                a.text-primary(href='https://mag.k-online.de/de/COPPA_Circular_Collaboration_Plattform_Rezyklate_Lebensmittelverpackungen') Weiterlesen
-                                    i.bi.bi-arrow-right-short
-                            .col-sm-8.text-end.my-2
-                                small.text-muted 
-                                    | 21. April 2023 - Elena Blume (Redaktion K-MAG)
-                                    img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
-
-                    // BMEL Bescheiduebergabe
-                    .col-lg-6.px-md-5.d-flex.flex-column
-                        .teaser-image.w-100(style="background-image: url('/assets/img/news/logo-bmel.png');")
-                        h3.text-primary.my-3 BMEL fördert innovative Ideen für weniger Kunststoffverpackungen in der Lebensmittelkette
-                        p Das Bundesministerium für Ernährung und Landwirtschaft (BMEL) fördert im Rahmen eines Innovationsförderprogramms Forschungs- und Entwicklungsvorhaben, um Kunststoffverpackungen und -abfälle entlang der Lebensmittelkette zu reduzieren. Die Parlamentarische Staatssekretärin beim Bundesminister für Ernährung und Landwirtschaft, Dr. Ophelia Nick, hat heute virtuell Förderurkunden an zwei der geförderten Projekte – COPPA und KompoPack – übergeben.
-                        .row.justify-content-between.mt-auto
-                            .col-sm-4.my-2
-                                a.text-primary(href='https://www.bmel.de/SharedDocs/Pressemitteilungen/DE/2022/165-kunststoffverpackung.html') Weiterlesen
-                                    i.bi.bi-arrow-right-short
-                            .col-sm-8.text-end.my-2
-                                small.text-muted 
-                                    | 23. November 2022 - BMEL Pressemitteilung
-                                    img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
 
 
         include ../components/footer.pug
