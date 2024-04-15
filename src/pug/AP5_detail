@@ -1,1 +1,183 @@
+doctype html
+html(lang='de')
 
+    head
+
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='News aus dem COPPA Förderprojekt für die Plastik Kreislaufwirtschaft')
+        meta(name='author', content='')
+
+        title AP 5 - Circular Plastic Economy
+
+        // Favicon
+        link(rel='icon', type='image/x-icon', href='/assets/favicon.ico')
+
+        link(rel='preload' href='/assets/img/logo/xs.png' as='image')
+
+        // Bootstrap icons
+        link(href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css', rel='stylesheet', type='text/css')
+
+        // AOS
+        link(href='https://unpkg.com/aos@2.3.1/dist/aos.css', rel='stylesheet', type='text/css')
+
+        // Google fonts
+        link(href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic', rel='stylesheet', type='text/css')
+
+        // Core theme CSS (includes Bootstrap)
+        link(href='/css/styles.css', rel='stylesheet')
+
+    body
+
+        // Navigation
+        nav.navbar.fixed-top.navbar-expand-lg.bg-light.shadow
+            .container
+                a.navbar-brand.me-5(href='/')
+                    h1.text-primary.navbar-logo
+                        | C
+                        img(src='/assets/img/logo/md.png', alt='COPPA')
+                        | PPA
+
+                button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-label='Toggle navigation')
+                    span.navbar-toggler-icon
+                .collapse.navbar-collapse(id='navbarNav')
+                    ul.navbar-nav.navbar-nav-scroll
+                        li.nav-item
+                            a.nav-link.text-primary(href="#") News
+                        li.nav-item
+                            a.nav-link(href="/#goals") Ziele
+                        li.nav-item
+                            a.nav-link(href="/#workingpackages") Arbeitspakete
+                        li.nav-item
+                            a.nav-link(href="/#partners") Partner
+                    
+
+        // Masthead
+        header.news.masthead
+            .container.position-relative
+                .row.justify-content-evenly
+                    .col-xl-6.align-self-center
+                        .text-center.text-xl-end.text-white
+                            // Page heading
+                            h1 COPPA News
+                            h2.text-secondary.mb-5 Die aktuellen Entwicklungen im Projekt
+
+                    .col-6.col-xl-3.align-self-center.rotating.text-center
+                        img.w-75(src='/assets/img/logo/lg.png', alt='COPPA', data-aos='spin-in', data-aos-duration='2000')
+
+
+        section.news
+            .container.py-5
+
+                .row.g-5
+
+                    // Header article
+                    .col-lg-6.px-md-5
+                        img.w-100.pt-3(src='/assets/img/news/projekttreffen.png', alt='Projekttreffen Reifenäuser')
+                    .col-lg-6.px-md-5
+                        h3.text-primary.my-3 Projekttreffen
+                        p Drittes Projekttreffen des COPPA-Konsortiums.
+
+                        .row.justify-content-between.mt-5
+                            .col-sm-6.my-2
+                                a.text-primary(href='projekttreffen.html') Weiterlesen
+                                    i.bi.bi-arrow-right-short
+                            .col-sm-6.text-end.my-2
+                                small.text-muted 
+                                    | 13. November 2023 - Jasmin Plato
+                                    img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
+                    
+
+                    // Sub articles
+                    // Article divider - don't touch
+                    .col-12.text-center
+                        div.mx-auto.w-75.border-bottom.border-2.border-secondary.border-opacity-50.my-5
+                    // --------------------------------------------------------------------------------
+
+
+                    // GS1 Standards
+                    .col-lg-6.px-md-5.d-flex.flex-column
+                        .teaser-image.w-100(style="background-image: url('/assets/img/news/gs1.png');")
+                        h3.text-primary.my-3 Datengesteuerter Kreislauf von Verpackungsmaterialen
+                        p While plastic packaging offers many benefits, such as protection and increased durability of products, it also leads to major environmental problems and plastic pollution. In European Union member states only 32.5 percent of the plastic produced is recycled, whereas 67.5 percent ends up in incineration or landfill1. To promote high-quality recycling of plastic packaging, efforts by all stakeholders involved are needed – with the aim of generating new plastic packaging out of used packaging materials.
+                        .row.justify-content-between.mt-auto
+                            .col-sm-4.my-2
+                                a.text-primary(href='https://www.gs1-germany.de/fileadmin/gs1/fachpublikationen/gs1-germany-circular-plastics-traceability-implementation-guideline-v-1.0.pdf') Weiterlesen
+                                    i.bi.bi-arrow-right-short
+                                    i.bi.bi-filetype-pdf
+                            .col-sm-8.text-end.my-2
+                                small.text-muted 
+                                    | 29. August 2023 - Michaela Freynhagen
+                                    img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
+
+                    // SKZ Podcast
+                    .col-lg-6.px-md-5.d-flex.flex-column
+                        iframe(width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1517507824&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true")
+                        h3.text-primary.my-3 COPPA beim SKZ - Podcast "Kunststoff Nachgefragt"
+                        p In dieser Folge verbinden sich zwei der absoluten Trendthemen in der Kunststoffindustrie. Digitalisierung und Nachhaltigkeit. Zu Gast bei "Kunststoff Nachgefragt", dem SKZ Podcast, sind Roman Winter von der GS1-Germany GmbH und Georg Schwering von der European EPC Competence Center GmbH (EECC). Sie sprechen über das Projekt COPPA, den digitalen Produktpass für Lebensmittelverpackungen und welche Möglichkeiten dies für Rezyklatanwendungen und die Ermittlung des Carbon Footprint schafft.
+                        
+                        .row.justify-content-between.mt-auto
+                            .col-sm-4.my-2
+                                a.text-primary(href='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1517507824&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true') Anhören
+                                    i.bi.bi-arrow-right-short
+                            .col-sm-8.text-end.my-2
+                                small.text-muted 
+                                    | 03. August 2023 - Sophia Botsch
+                                    img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
+
+                    // EECC Whitepaper article
+                    .col-lg-6.px-md-5.d-flex.flex-column
+                        .teaser-image.w-100(style="background-image: url('https://media.licdn.com/dms/image/D4E12AQFLCXFToYmnUg/article-cover_image-shrink_600_2000/0/1682416611800?e=2147483647&v=beta&t=mGx8Gp1VeOs7Mgks_WEfmsZdx1T_yLGmVkJjzn15Few');")
+                        h3.text-primary.my-3 Datenströme der Zukunft - Der Wert von signierten Daten
+                        p In der heutigen Welt dürfte jedem der Wert und die Wichtigkeit von Daten bewusst sein. Daten sind omnipräsent und bilden die Basis unserer modernen Wirtschaft. Die Überprüfung von Qualität, Authentizität und Ursprung der Daten kommt besonders bei komplexen Supply Chains oder einer Kreislaufwirtschaft zum Tragen.
+                        .row.justify-content-between.mt-auto
+                            .col-sm-4.my-2
+                                a.text-primary(href='https://www.linkedin.com/pulse/datenstr%25C3%25B6me-der-zukunft-wert-von-signierten-daten-eecc-gmbh/') Weiterlesen
+                                    i.bi.bi-arrow-right-short
+                            .col-sm-8.text-end.my-2
+                                small.text-muted 
+                                    | 25. April 2023 - Christian Fries
+                                    img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
+
+                    // KMAG Interview article
+                    .col-lg-6.px-md-5.d-flex.flex-column
+                        .teaser-image.w-100(style="background-image: url('/assets/img/news/Interview.jpg');")
+                        h3.text-primary.my-3 Circular Collaboration Plattform: für mehr Rezyklate in Lebensmittelverpackungen
+                        p Interview von K-MAG mit Dr. Hermann Achenbach, Gruppenleiter Nachhaltigkeit und Kreislaufwirtschaft, Das Kunststoff-Zentrum SKZ
+                        .row.justify-content-between.mt-auto
+                            .col-sm-4.my-2
+                                a.text-primary(href='https://mag.k-online.de/de/COPPA_Circular_Collaboration_Plattform_Rezyklate_Lebensmittelverpackungen') Weiterlesen
+                                    i.bi.bi-arrow-right-short
+                            .col-sm-8.text-end.my-2
+                                small.text-muted 
+                                    | 21. April 2023 - Elena Blume (Redaktion K-MAG)
+                                    img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
+
+                    // BMEL Bescheiduebergabe
+                    .col-lg-6.px-md-5.d-flex.flex-column
+                        .teaser-image.w-100(style="background-image: url('/assets/img/news/logo-bmel.png');")
+                        h3.text-primary.my-3 BMEL fördert innovative Ideen für weniger Kunststoffverpackungen in der Lebensmittelkette
+                        p Das Bundesministerium für Ernährung und Landwirtschaft (BMEL) fördert im Rahmen eines Innovationsförderprogramms Forschungs- und Entwicklungsvorhaben, um Kunststoffverpackungen und -abfälle entlang der Lebensmittelkette zu reduzieren. Die Parlamentarische Staatssekretärin beim Bundesminister für Ernährung und Landwirtschaft, Dr. Ophelia Nick, hat heute virtuell Förderurkunden an zwei der geförderten Projekte – COPPA und KompoPack – übergeben.
+                        .row.justify-content-between.mt-auto
+                            .col-sm-4.my-2
+                                a.text-primary(href='https://www.bmel.de/SharedDocs/Pressemitteilungen/DE/2022/165-kunststoffverpackung.html') Weiterlesen
+                                    i.bi.bi-arrow-right-short
+                            .col-sm-8.text-end.my-2
+                                small.text-muted 
+                                    | 23. November 2022 - BMEL Pressemitteilung
+                                    img.mx-1.mb-1(src='/assets/img/logo/xs.png', alt='COPPA')
+
+
+        include ../components/footer.pug
+
+        // Bootstrap core JS
+        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
+
+        .div(id='preloader')
+            img(src='/assets/img/logo/xs.png')
+
+        // AOS
+        script(src='https://unpkg.com/aos@2.3.1/dist/aos.js')
+
+        // Core theme JS
+        script(src='/js/scripts.js')
